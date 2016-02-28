@@ -85,4 +85,4 @@ names(agg)[names(agg) == 'label'] <- 'activity.label'
 tidyData <- agg[order(agg$subject),]
 
 ## write the result to a file in the /result folder
-write.csv(tidyData, file = "tidy.csv",row.names=FALSE)
+write.table(tidyData, file = "tidy.txt",row.names=FALSE)
