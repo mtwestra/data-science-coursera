@@ -1,10 +1,8 @@
-==================================================================
-Human activity recognition by smartphones
-Data manipulation R script
+## Human activity recognition by smartphones
 
 Version 1.0
+
 Author: M.T. Westra
-==================================================================
 
 ## Description
 This R script manipulates the Human Activity Recognition Using Smartphones dataset available at the UC Irvine Machine Learning Repository.
